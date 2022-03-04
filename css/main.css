@@ -4,7 +4,41 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: Inter, serif;
+  font-family: "Bree Serif", serif;
+  overflow:visible;
+}
+
+/* header section */
+.main-menu {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #5e5df0; */
+  height: 7vh;
+}
+
+.main-menu nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  list-style: none;
+}
+
+li > a {
+  text-decoration: none;
+  padding: 10px 10px 0px 10px;
+  box-sizing: border-box;
+  color: #5e5df0;
+  /* text-transform: uppercase; */
+  letter-spacing: -0.035em;
+  font-weight: 900;
+  font-size: 20px;
+}
+li > a:hover {
+  border-bottom: 4px solid #646369;
 }
 
 /* Title section */
@@ -14,8 +48,10 @@ h1 a {
   text-decoration: none;
   font-size: 50px;
   font-weight: 900;
-  text-shadow: 4px 4px 2px rgb(198, 177, 231);
+  text-shadow: 4px 4px 2px #d9d9d9;
+  letter-spacing: -0.035em;
 }
+
 
 .title {
   display: flex;
@@ -23,7 +59,11 @@ h1 a {
 }
 
 .title-info {
+  color: #646369;
   text-align: center;
+}
+.title-info a {
+  color: #646369;
 }
 
 .collab-link {
@@ -40,10 +80,6 @@ h1 a {
   box-sizing: border-box;
   color: #ffffff;
   cursor: pointer;
-  /* font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji",
-    NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji",
-    EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue",
-    "Noto Sans", sans-serif; */
   font-size: 16px;
   font-weight: 700;
   line-height: 24px;
@@ -64,7 +100,7 @@ h1 a {
 }
 /* about section */
 .box {
-  padding: 40px;
+  margin-top: 20px;
   flex-direction: column;
   display: flex;
 }
@@ -77,32 +113,55 @@ h1 a {
 
 .about-title {
   font-weight: 900;
-  font-size: 50px;
+  font-size: 30px;
   letter-spacing: -0.035em;
-  margin-bottom: 30px;
+  color: #5e5df0;
+  margin-bottom: 20px;
 }
 
 .about-para {
   color: #646369;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   line-height: 1.4em;
   font-size: 16px;
+  text-align: center;
 }
 
 .about-reach {
-  font-weight: 600;
   margin-bottom: 30px;
+  font-weight: 900;
+  font-size: 30px;
+  letter-spacing: -0.035em;
+  color: #5e5df0;
+}
+.icons {
+  margin-bottom: 10px;
 }
 
-.reach-icons a{
-    padding: 10px;
-    color: #5e5df0;
+.icons a {
+  padding: 10px;
+  color: #646369;
 }
-
+.icons a:hover {
+  color: #5e5df0;
+}
 /* work section */
-.work-info {
+.work {
   text-align: center;
   margin: 20px;
+}
+
+
+/* internship and certificate */
+.internship {
+  margin-top: 20px;
+  text-align: center;
+}
+.title {
+  font-size: 30px;
+  font-weight: 900;
+  letter-spacing: -0.035em;;
+  color: #5e5df0;
 }
 
 @media only screen and (max-width: 767px) {
