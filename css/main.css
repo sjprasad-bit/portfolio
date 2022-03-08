@@ -5,7 +5,16 @@
   margin: 0;
   padding: 0;
   font-family: "Bree Serif", serif;
-  overflow:visible;
+  overflow: visible;
+}
+
+/* alert section */
+.custom-alert {
+  background-color: #5e5df0 !important;
+  color: white !important;
+  border-radius: 99px !important;
+  border: none !important;
+  margin: 10px !important;
 }
 
 /* header section */
@@ -51,7 +60,6 @@ h1 a {
   text-shadow: 4px 4px 2px #d9d9d9;
   letter-spacing: -0.035em;
 }
-
 
 .title {
   display: flex;
@@ -151,7 +159,6 @@ h1 a {
   margin: 20px;
 }
 
-
 /* internship and certificate */
 .internship {
   margin-top: 20px;
@@ -160,7 +167,7 @@ h1 a {
 .title {
   font-size: 30px;
   font-weight: 900;
-  letter-spacing: -0.035em;;
+  letter-spacing: -0.035em;
   color: #5e5df0;
 }
 
