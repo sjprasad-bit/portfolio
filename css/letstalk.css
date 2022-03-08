@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+/* import font family */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* css reset */
 
 * {
     margin: 0;
@@ -6,63 +9,11 @@
     font-family: 'Inter', sans-serif;
 }
 
-.container {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 500px;
-    height: 500px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    border-radius: 10px;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: .9rem;
-    z-index: 100;
-}
-
-.inputs {
-    width: 260px;
-    height: 470px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    z-index: 2;
-}
-
-.input-fields {
-    border: none;
-    width: 260px;
-    height: 45px;
-    border-bottom: 2px solid #dbdbdb;
-    padding-left: .7rem;
-    outline: none;
-    font-weight: 600;
-    font-size: 15px;
-}
-
-::placeholder {
-    color: #b8b8b8;
-}
-
-.btn button {
-    width: 275px;
-    height: 45px;
-    border-radius: 4px;
-    border: none;
-    outline: none;
-    font-size: 17px;
-}
-
-.title {
-    text-align: center;
-    font-size: 20px;
-    font-weight: 900;
-}
-.msg{
-    border-bottom: 2px solid #dbdbdb;
-    border:none;
-    padding-left: .7rem;
+/* alert bar  */
+.custom-alert {
+    border: 0;
+    border-radius: 99px;
+    margin-top: 10px;
+    background-color: #5e5df0;
+    color: white;
 }
